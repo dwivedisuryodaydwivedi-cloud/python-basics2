@@ -1,7 +1,8 @@
-# serching  the given list of element using loop [1,4,9,16,25,36,49,64,81,100]
-num = int(input("enter your number:"))
-nums = [1,4,9,16,25,36,49,64,81,100]
-for i in range(len(nums)): # loop for printing one to 10 number 
-  if nums[i] == num: # This simply go step by step at every value  through  and whenever index found print that index value 
-    print("Number found ",i)
-  
+# using of break keyword in loops break is used to terminate the loop whenever you need 
+# lets uder stand this cocept of break using while loop 
+i = 1
+while i<=101:
+  if(i==90):
+    break # break terminate the loop at specific condition that you wnat 
+  i += 1
+print("end of loop",i)
